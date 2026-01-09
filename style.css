@@ -4,20 +4,31 @@ body {
     box-sizing: border-box;
 }
 
+.heading{
+    /* border: 1px solid red; */
+    width: 50%;
+    margin: auto;
+}
+
+.heading h1{
+    margin-left: 30%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
 .calc {
     /* border: 2px solid black; */
     width: 30%;
     margin: 40px auto;
     padding: 15px;
-    background:linear-gradient(to bottom, #000000, #2d2d2e);
-    box-shadow: 2px 2px 4px black;
+    background:  #000000;
+    box-shadow: 1px 1px 4px rgb(234, 234, 234);
     border-radius: 6px;
 
 }
 
 .input {
     /* border: 1px solid red; */
-
     width: 89%;
     margin: 10px;
 }
@@ -26,13 +37,13 @@ body {
     width: 100%;
     padding-inline: 15px;
     padding-block: 20px;
-    background: #d4d6d6c1 ;
-    color: black;
+    background: #323232c1;
+    color: white;
     font-size: 20px;
     outline: none;
     border: none;
     border-radius: 4px;
-    box-shadow: 2px 2px 4px gray;
+    box-shadow: 0px 0px 5px gray;
 }
 
 
@@ -41,13 +52,13 @@ body {
     width: 85px;
     padding: 12px;
     margin-bottom: 10px;
-    background: linear-gradient(45deg, #9e9ea0, #ffff, #859495);
-    color: black;
+    background-color: #000000;
+    color: white;
     outline: none;
     border: none;
     border-radius: 4px;
-    box-shadow: 1px 1px 4px grey;
-    text-shadow: 0 2px 4px white;
+    box-shadow: 0px 0px 4px rgba(158, 158, 157, 0.619);
+    text-shadow: 0 0px 2px white;
     font-size: 15px;
 }
 
@@ -55,12 +66,12 @@ body {
     width: 174px;
     padding: 12px;
     margin-bottom: 10px;
-    background: linear-gradient(45deg, #484849, #ffff, #657374);
-    color: black;
+    background-color: #000000;
+    color: white;
     outline: none;
     border: none;
-    text-shadow: 0 2px 4px white;
-    box-shadow: 1px 1px 4px grey;
+    text-shadow: 0 0px 1px white;
+    box-shadow: 0px 0px 4px rgba(158, 158, 157, 0.619);
     font-size: 15px;
 }
 

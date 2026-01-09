@@ -8,6 +8,12 @@
 </head>
 
 <body>
+
+
+
+    <div class="heading">
+        <h1>Scientific Calculator</h1>
+    </div>
     <div class="calc">
         <div class="input">
             <input id="result" type="text" class="display">
@@ -19,39 +25,39 @@
                 <button class="back" onclick="getResult()">Enter</button>
             </div>
             <div>
-                <button class="btn">exp</button>
+                <button class="btn" onclick="exp()">exp</button>
                 <button class="btn" onclick="getNum('7')">7</button>
                 <button class="btn" onclick="getNum('8')">8</button>
                 <button class="btn" onclick="getNum('9')">9</button>
                 <button class="btn" onclick="getNum('/')">/</button>
             </div>
             <div>
-                <button class="btn" onclick="getNum('')">In</button>
+                <button class="btn" onclick="ln()">ln</button>
                 <button class="btn" onclick="getNum('4')">4</button>
                 <button class="btn" onclick="getNum('5')">5</button>
                 <button class="btn" onclick="getNum('6')">6</button>
                 <button class="btn" onclick="getNum('*')">X</button>
             </div>
             <div>
-                <button class="btn" onclick="getNum('')">sqrt</button>
+                <button class="btn" onclick="sqrt()">sqrt</button>
                 <button class="btn" onclick="getNum('1')">1</button>
                 <button class="btn" onclick="getNum('2')">2</button>
                 <button class="btn" onclick="getNum('3')">3</button>
                 <button class="btn" onclick="getNum('-')">-</button>
             </div>
             <div>
-                <button class="btn" onclick="getNum('')">sq</button>
+                <button class="btn" onclick="sq()">sq</button>
                 <button class="btn" onclick="getNum('0')">0</button>
                 <button class="btn" onclick="getNum('.')">.</button>
-                <button class="btn" onclick="getNum('')">+/-</button>
+                <button class="btn" onclick="sign()">+/-</button>
                 <button class="btn" onclick="getNum('+')">+</button>
             </div>
             <div>
-                <button class="btn" onclick="getNum('')">(</button>
+                <button class="btn" onclick='getNum("(")'>(</button>
                 <button class="btn" onclick="cos()">cos</button>
-                <button class="btn" onclick="getNum('')">sin</button>
-                <button class="btn" onclick="getNum('')">tan</button>
-                <button class="btn" onclick="getNum('')">)</button>
+                <button class="btn" onclick="sin()">sin</button>
+                <button class="btn" onclick="tan()">tan</button>
+                <button class="btn" onclick='getNum(")")'>)</button>
             </div>
         </div>
     </div>
