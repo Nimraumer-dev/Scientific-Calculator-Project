@@ -1,22 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Scientific Calculator</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-
-
-
-
-
-
-
-
-
+    <div class="calc">
+        <div class="input">
+            <input id="result" type="text" class="display">
+        </div>
+        <div class="allbtn">
+            <div>
+                <button class="btn" onclick="clearResult()">Clear</button>
+                <button class="back" onclick="delChar()">Backspace</button>
+                <button class="back" onclick="getResult()">Enter</button>
+            </div>
+            <div>
+                <button class="btn">exp</button>
+                <button class="btn" onclick="getNum('7')">7</button>
+                <button class="btn" onclick="getNum('8')">8</button>
+                <button class="btn" onclick="getNum('9')">9</button>
+                <button class="btn" onclick="getNum('/')">/</button>
+            </div>
+            <div>
+                <button class="btn" onclick="getNum('')">In</button>
+                <button class="btn" onclick="getNum('4')">4</button>
+                <button class="btn" onclick="getNum('5')">5</button>
+                <button class="btn" onclick="getNum('6')">6</button>
+                <button class="btn" onclick="getNum('*')">X</button>
+            </div>
+            <div>
+                <button class="btn" onclick="getNum('')">sqrt</button>
+                <button class="btn" onclick="getNum('1')">1</button>
+                <button class="btn" onclick="getNum('2')">2</button>
+                <button class="btn" onclick="getNum('3')">3</button>
+                <button class="btn" onclick="getNum('-')">-</button>
+            </div>
+            <div>
+                <button class="btn" onclick="getNum('')">sq</button>
+                <button class="btn" onclick="getNum('0')">0</button>
+                <button class="btn" onclick="getNum('.')">.</button>
+                <button class="btn" onclick="getNum('')">+/-</button>
+                <button class="btn" onclick="getNum('+')">+</button>
+            </div>
+            <div>
+                <button class="btn" onclick="getNum('')">(</button>
+                <button class="btn" onclick="cos()">cos</button>
+                <button class="btn" onclick="getNum('')">sin</button>
+                <button class="btn" onclick="getNum('')">tan</button>
+                <button class="btn" onclick="getNum('')">)</button>
+            </div>
+        </div>
+    </div>
 
 
     <script src="app.js"></script>
 </body>
+
 </html>
